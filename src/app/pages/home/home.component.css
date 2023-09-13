@@ -1,0 +1,4 @@
+.app__container-articles {
+  display: flex;
+  justify-content: space-between;
+}
