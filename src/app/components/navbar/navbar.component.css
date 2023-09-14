@@ -1,0 +1,17 @@
+.app__container-navbar__links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.app__container-navbar__links-link {
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+.app__container-navbar__links-link:hover {
+  color: lightgray;
+}

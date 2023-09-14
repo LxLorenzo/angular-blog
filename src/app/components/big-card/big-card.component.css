@@ -1,8 +1,8 @@
 .app__container-big-card {
-  width: 420px;
   display: flex;
   flex-direction: column;
   padding: 1.5rem 0;
+  max-width: 550px;
 }
 
 .app__container-big-card__image img {
@@ -24,4 +24,10 @@
 .app__container-big-card__content-description {
   font-size: .825rem;
   color: grey;
+}
+
+@media screen and (max-width: 768px) {
+  .app__container-big-card__image img {
+    max-width: 100%;
+  }
 }
