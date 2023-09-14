@@ -4,7 +4,9 @@
   </div>
   <div class="app__container-big-card__content">
     <div class="app__container-big-card__content-title">
-      <h2>{{ cardTitle }}</h2>
+      <h2>
+        <a [routerLink]="['content', id]">{{ cardTitle }}</a>
+      </h2>
     </div>
     <div class="app__container-big-card__content-description">
       <p>

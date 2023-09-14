@@ -4,6 +4,8 @@
   </div>
   <div class="app__container-small-card__content">
     <p>{{ cardDate }}</p>
-    <h2>{{ cardTitle }}</h2>
+    <h2>
+      <a [routerLink]="['content', id]">{{ cardTitle }}</a>
+    </h2>
   </div>
 </article>

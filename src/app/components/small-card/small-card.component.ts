@@ -9,4 +9,5 @@ export class SmallCardComponent {
   @Input() cardDate:string = '';
   @Input() cardTitle:string = '';
   @Input() photoCover:string = '';
+  @Input() id:string = '0';
 }

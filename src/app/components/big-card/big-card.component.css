@@ -16,9 +16,18 @@
   margin-top: .625rem;
 }
 
+.app__container-big-card__content-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .app__container-big-card__content-title {
   font-size: 1.25rem;
   font-weight: bold;
+}
+
+.app__container-big-card__content-title:hover {
+  text-decoration: underline;
 }
 
 .app__container-big-card__content-description {
